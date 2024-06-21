@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Service It</string>
+    <string-array name="user_type_array">
+        <item>Service Provider</item>
+        <item>Consumer</item>
+    </string-array>
 </resources>

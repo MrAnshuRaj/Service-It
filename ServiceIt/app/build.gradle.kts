@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.anshu.myapplication"
+        applicationId = "com.anshu.serviceit"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
