@@ -109,7 +109,8 @@ public class SignUp extends AppCompatActivity {
 
         RadioButton selectedGender = findViewById(selectedGenderId);
         String gender = selectedGender.getText().toString();
-
+        if(userType.equals("Service Provider"))
+            startActivity(new Intent(SignUp.this,SellerSign.class));
         // Proceed with your sign-up logic here
         // send data to the server
 
